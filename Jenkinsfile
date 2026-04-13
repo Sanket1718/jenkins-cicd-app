@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/<Sanket1718>/jenkins-cicd-app.git'
+                git 'https://github.com/Sanket1718/jenkins-cicd-app.git'
             }
         }
 
